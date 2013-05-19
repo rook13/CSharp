@@ -1,0 +1,9 @@
+c:\users\rook\documents\visual studio 2012\Projects\SpeechRecogTest\SpeechRecogTest\bin\Debug\SpeechRecogTest.exe.config
+C:\Users\Rook\Documents\Visual Studio 2012\Projects\SpeechRecogTest\SpeechRecogTest\bin\Debug\SpeechRecogTest.exe
+C:\Users\Rook\Documents\Visual Studio 2012\Projects\SpeechRecogTest\SpeechRecogTest\bin\Debug\SpeechRecogTest.pdb
+C:\Users\Rook\Documents\Visual Studio 2012\Projects\SpeechRecogTest\SpeechRecogTest\obj\Debug\SpeechRecogTest.csprojResolveAssemblyReference.cache
+C:\Users\Rook\Documents\Visual Studio 2012\Projects\SpeechRecogTest\SpeechRecogTest\obj\Debug\SpeechRecogTest.Form1.resources
+C:\Users\Rook\Documents\Visual Studio 2012\Projects\SpeechRecogTest\SpeechRecogTest\obj\Debug\SpeechRecogTest.Properties.Resources.resources
+C:\Users\Rook\Documents\Visual Studio 2012\Projects\SpeechRecogTest\SpeechRecogTest\obj\Debug\SpeechRecogTest.csproj.GenerateResource.Cache
+C:\Users\Rook\Documents\Visual Studio 2012\Projects\SpeechRecogTest\SpeechRecogTest\obj\Debug\SpeechRecogTest.exe
+C:\Users\Rook\Documents\Visual Studio 2012\Projects\SpeechRecogTest\SpeechRecogTest\obj\Debug\SpeechRecogTest.pdb
