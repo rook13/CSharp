@@ -16,12 +16,14 @@ namespace FileFinder
 
         private string searchFolder = "C:/Users/Rook/Documents/Downloads/complete/";
 
+        private string fileToOpen = "";
+
         public Form1()
         {
             InitializeComponent();
         }
 
-        private void openFileButton_Click_1(object sender, EventArgs e)
+        private void findFileButton_Click_1(object sender, EventArgs e)
         {
             string fileName = fileNameInput.Text;
 
@@ -33,6 +35,13 @@ namespace FileFinder
             {
                 resultsTxt.Text += file + "\n";
             }
+
+            fileToOpen = fileList[0];
+        }
+
+        private void openFileButton_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start(fileToOpen);
         }
     }
 }

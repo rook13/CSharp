@@ -30,8 +30,9 @@
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.fileNameInput = new System.Windows.Forms.TextBox();
-            this.openFileButton = new System.Windows.Forms.Button();
+            this.findFileButton = new System.Windows.Forms.Button();
             this.resultsTxt = new System.Windows.Forms.RichTextBox();
+            this.openFileButton = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -41,14 +42,16 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 76.71756F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 23.28244F));
             this.tableLayoutPanel1.Controls.Add(this.fileNameInput, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.openFileButton, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.findFileButton, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.resultsTxt, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.openFileButton, 1, 2);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 2;
+            this.tableLayoutPanel1.RowCount = 3;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.9771F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 87.0229F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 34F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(524, 255);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
@@ -60,27 +63,38 @@
             this.fileNameInput.Size = new System.Drawing.Size(396, 20);
             this.fileNameInput.TabIndex = 0;
             // 
-            // openFileButton
+            // findFileButton
             // 
-            this.openFileButton.Dock = System.Windows.Forms.DockStyle.Top;
-            this.openFileButton.Location = new System.Drawing.Point(405, 3);
-            this.openFileButton.Name = "openFileButton";
-            this.openFileButton.Size = new System.Drawing.Size(116, 20);
-            this.openFileButton.TabIndex = 1;
-            this.openFileButton.Text = "Open";
-            this.openFileButton.UseVisualStyleBackColor = true;
-            this.openFileButton.Click += new System.EventHandler(this.openFileButton_Click_1);
+            this.findFileButton.Dock = System.Windows.Forms.DockStyle.Top;
+            this.findFileButton.Location = new System.Drawing.Point(405, 3);
+            this.findFileButton.Name = "findFileButton";
+            this.findFileButton.Size = new System.Drawing.Size(116, 20);
+            this.findFileButton.TabIndex = 1;
+            this.findFileButton.Text = "Find";
+            this.findFileButton.UseVisualStyleBackColor = true;
+            this.findFileButton.Click += new System.EventHandler(this.findFileButton_Click_1);
             // 
             // resultsTxt
             // 
             this.tableLayoutPanel1.SetColumnSpan(this.resultsTxt, 2);
             this.resultsTxt.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.resultsTxt.Location = new System.Drawing.Point(3, 36);
+            this.resultsTxt.Location = new System.Drawing.Point(3, 31);
             this.resultsTxt.Name = "resultsTxt";
             this.resultsTxt.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
-            this.resultsTxt.Size = new System.Drawing.Size(518, 216);
+            this.resultsTxt.Size = new System.Drawing.Size(518, 186);
             this.resultsTxt.TabIndex = 2;
             this.resultsTxt.Text = "";
+            // 
+            // openFileButton
+            // 
+            this.openFileButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.openFileButton.Location = new System.Drawing.Point(405, 223);
+            this.openFileButton.Name = "openFileButton";
+            this.openFileButton.Size = new System.Drawing.Size(116, 29);
+            this.openFileButton.TabIndex = 3;
+            this.openFileButton.Text = "Open";
+            this.openFileButton.UseVisualStyleBackColor = true;
+            this.openFileButton.Click += new System.EventHandler(this.openFileButton_Click);
             // 
             // Form1
             // 
@@ -100,8 +114,9 @@
 
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.TextBox fileNameInput;
-        private System.Windows.Forms.Button openFileButton;
+        private System.Windows.Forms.Button findFileButton;
         private System.Windows.Forms.RichTextBox resultsTxt;
+        private System.Windows.Forms.Button openFileButton;
 
     }
 }
