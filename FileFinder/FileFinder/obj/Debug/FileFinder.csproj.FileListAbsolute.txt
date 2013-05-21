@@ -1,0 +1,9 @@
+C:\Users\Rook\Documents\Git\FileFinder\FileFinder\bin\Debug\FileFinder.exe.config
+C:\Users\Rook\Documents\Git\FileFinder\FileFinder\bin\Debug\FileFinder.exe
+C:\Users\Rook\Documents\Git\FileFinder\FileFinder\bin\Debug\FileFinder.pdb
+C:\Users\Rook\Documents\Git\FileFinder\FileFinder\obj\Debug\FileFinder.csprojResolveAssemblyReference.cache
+C:\Users\Rook\Documents\Git\FileFinder\FileFinder\obj\Debug\FileFinder.Form1.resources
+C:\Users\Rook\Documents\Git\FileFinder\FileFinder\obj\Debug\FileFinder.Properties.Resources.resources
+C:\Users\Rook\Documents\Git\FileFinder\FileFinder\obj\Debug\FileFinder.csproj.GenerateResource.Cache
+C:\Users\Rook\Documents\Git\FileFinder\FileFinder\obj\Debug\FileFinder.exe
+C:\Users\Rook\Documents\Git\FileFinder\FileFinder\obj\Debug\FileFinder.pdb

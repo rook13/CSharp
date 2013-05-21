@@ -1,0 +1,9 @@
+C:\Users\Rook\Documents\Git\OpenFilesTest\OpenFilesTest\bin\Debug\OpenFilesTest.exe.config
+C:\Users\Rook\Documents\Git\OpenFilesTest\OpenFilesTest\bin\Debug\OpenFilesTest.exe
+C:\Users\Rook\Documents\Git\OpenFilesTest\OpenFilesTest\bin\Debug\OpenFilesTest.pdb
+C:\Users\Rook\Documents\Git\OpenFilesTest\OpenFilesTest\obj\Debug\OpenFilesTest.csprojResolveAssemblyReference.cache
+C:\Users\Rook\Documents\Git\OpenFilesTest\OpenFilesTest\obj\Debug\OpenFilesTest.Form1.resources
+C:\Users\Rook\Documents\Git\OpenFilesTest\OpenFilesTest\obj\Debug\OpenFilesTest.Properties.Resources.resources
+C:\Users\Rook\Documents\Git\OpenFilesTest\OpenFilesTest\obj\Debug\OpenFilesTest.csproj.GenerateResource.Cache
+C:\Users\Rook\Documents\Git\OpenFilesTest\OpenFilesTest\obj\Debug\OpenFilesTest.exe
+C:\Users\Rook\Documents\Git\OpenFilesTest\OpenFilesTest\obj\Debug\OpenFilesTest.pdb
